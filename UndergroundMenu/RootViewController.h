@@ -7,12 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
-
 #import <CoreData/CoreData.h>
-
-@interface RootViewController : UITableViewController <NSFetchedResultsControllerDelegate>
-
+#import <CoreLocation/CoreLocation.h>
+@class LocationManager;
+@interface RootViewController : UITableViewController <NSFetchedResultsControllerDelegate,CLLocationManagerDelegate,UIActionSheetDelegate>
+{
+    LocationManager* locManager;
+    CLLocation* lastKnownLocation;
+}
 @property (strong, nonatomic) NSFetchedResultsController *fetchedResultsController;
 @property (strong, nonatomic) NSManagedObjectContext *managedObjectContext;
-
+@property (nonatomic, retain) LocationManager* locManager;
+@property (nonatomic,retain) CLLocation* lastKnownLocation;
 @end

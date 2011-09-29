@@ -7,7 +7,7 @@
 //
 
 #import "UndergroundMenuAppDelegate.h"
-
+#import "UIColorTransformer.h"
 @implementation UndergroundMenuAppDelegate
 
 @synthesize window = _window;
@@ -19,6 +19,8 @@
 {
     // Override point for customization after application launch.
     [self.window makeKeyAndVisible];
+    UIColorTransformer* transformer = [[UIColorTransformer alloc] init];
+    [UIColorTransformer setValueTransformer:transformer forName:(NSString*)@"UIColorTransformerName"];
     return YES;
 }
 
@@ -124,12 +126,12 @@
     {
         return __persistentStoreCoordinator;
     }
-    
+    NSDictionary* options = [NSDictionary dictionaryWithObjectsAndKeys:[NSNumber numberWithBool:YES],NSMigratePersistentStoresAutomaticallyOption,[NSNumber numberWithBool:YES],NSInferMappingModelAutomaticallyOption, nil];
     NSURL *storeURL = [[self applicationDocumentsDirectory] URLByAppendingPathComponent:@"UndergroundMenu.sqlite"];
     
     NSError *error = nil;
     __persistentStoreCoordinator = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:[self managedObjectModel]];
-    if (![__persistentStoreCoordinator addPersistentStoreWithType:NSSQLiteStoreType configuration:nil URL:storeURL options:nil error:&error])
+    if (![__persistentStoreCoordinator addPersistentStoreWithType:NSSQLiteStoreType configuration:nil URL:storeURL options:options error:&error])
     {
         /*
          Replace this implementation with code to handle the error appropriately.
