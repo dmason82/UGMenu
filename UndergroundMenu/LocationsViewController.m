@@ -276,9 +276,23 @@
 	    [alert show];
 	}
     
-    for (NSManagedObject* object in [self.fetchedResultsController fetchedObjects]) {
-        NSLog(@"%@",object);
+    for(Location* loc in [__fetchedResultsController fetchedObjects])
+    {
+            CLLocation* place = [[CLLocation alloc] initWithLatitude:[loc.latitude floatValue] longitude:[loc.longitude floatValue]];
+            loc.distance = [NSNumber numberWithDouble:[self.viewController.lastKnownLocation distanceFromLocation:place]];
+        if(!loc.address)
+        {
+            
+        }
     }
+    NSError* err = nil;
+    if(![viewController.managedObjectContext save:&err ])
+    {
+        UIAlertView* alert = [[UIAlertView alloc] initWithTitle:@"Error!" message:[NSString stringWithFormat:@"%@,%@",error,[error userInfo]] delegate:nil cancelButtonTitle:@"OK" otherButtonTitles: nil];
+        [alert show];
+                
+    }
+                                
     return __fetchedResultsController;
 }
 
