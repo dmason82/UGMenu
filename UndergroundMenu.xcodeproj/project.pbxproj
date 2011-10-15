@@ -17,8 +17,6 @@
 		9A024E3B13C36F6B008BF716 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A024E3913C36F6B008BF716 /* MainStoryboard.storyboard */; };
 		9A024E3E13C36F6B008BF716 /* UndergroundMenu.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9A024E3C13C36F6B008BF716 /* UndergroundMenu.xcdatamodeld */; };
 		9A024E4113C36F6B008BF716 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A024E4013C36F6B008BF716 /* RootViewController.m */; };
-		9A024E4313C36F6B008BF716 /* DetailViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = 9A024E4213C36F6B008BF716 /* DetailViewController.h */; };
-		9A024E4513C36F6B008BF716 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A024E4413C36F6B008BF716 /* DetailViewController.m */; };
 		9A024E4D13C36F6B008BF716 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A024E4C13C36F6B008BF716 /* SenTestingKit.framework */; };
 		9A024E4E13C36F6B008BF716 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A024E2513C36F6B008BF716 /* UIKit.framework */; };
 		9A024E4F13C36F6B008BF716 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A024E2713C36F6B008BF716 /* Foundation.framework */; };
@@ -27,6 +25,27 @@
 		9A024E5913C36F6B008BF716 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9A024E5713C36F6B008BF716 /* InfoPlist.strings */; };
 		9A024E5B13C36F6B008BF716 /* UndergroundMenuTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 9A024E5A13C36F6B008BF716 /* UndergroundMenuTests.h */; };
 		9A024E5D13C36F6B008BF716 /* UndergroundMenuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A024E5C13C36F6B008BF716 /* UndergroundMenuTests.m */; };
+		9A0967701423005E006E5C18 /* pizzaparlor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A09676F1423005E006E5C18 /* pizzaparlor.jpg */; };
+		9A09677314230219006E5C18 /* cake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A09677214230219006E5C18 /* cake.jpg */; };
+		9A10985F14004AF900BD3C14 /* FoodTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A10985E14004AF900BD3C14 /* FoodTableViewCell.m */; };
+		9A4178AA1417D2060072260A /* LocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4178A91417D2060072260A /* LocationManager.m */; };
+		9A4CA3311406C430008A0E1A /* foodlogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A4CA3301406C430008A0E1A /* foodlogo.jpg */; };
+		9A689A8B13FDABB40083EC1C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A689A8A13FDABB30083EC1C /* CoreLocation.framework */; };
+		9ABC54AD1427C94900BF8E04 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ABC54AC1427C94900BF8E04 /* AddressBookUI.framework */; };
+		9ABE569A140E8CFE00D06740 /* MenuItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9ABE5699140E8CFE00D06740 /* MenuItem.xib */; };
+		9AD8BB801401879E0089D0E1 /* LocationTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD8BB7F1401879E0089D0E1 /* LocationTableViewCell.m */; };
+		9ADC91681410025400C1913E /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ADC91671410025400C1913E /* DetailViewController.m */; };
+		A8257C4D13FE2FC200909958 /* Restaurant.m in Sources */ = {isa = PBXBuildFile; fileRef = A8257C4C13FE2FC100909958 /* Restaurant.m */; };
+		A8257C5013FE2FC200909958 /* Food.m in Sources */ = {isa = PBXBuildFile; fileRef = A8257C4F13FE2FC200909958 /* Food.m */; };
+		A8257C5313FE2FC200909958 /* Menu.m in Sources */ = {isa = PBXBuildFile; fileRef = A8257C5213FE2FC200909958 /* Menu.m */; };
+		A83E3F2D140A002400AA81B9 /* MenuSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A83E3F2C140A002300AA81B9 /* MenuSelectViewController.m */; };
+		A8A708AE14021C7E004F42BF /* ResturantTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A708AD14021C7E004F42BF /* ResturantTableViewCell.m */; };
+		A8C91B9C1409B55100E34FA2 /* UIColorTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C91B9B1409B55100E34FA2 /* UIColorTransformer.m */; };
+		A8C91B9F1409D26A00E34FA2 /* testshop.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A8C91B9E1409D26A00E34FA2 /* testshop.jpg */; };
+		A8CBF177144A1B86002C89BA /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = A8CBF176144A1B86002C89BA /* Location.m */; };
+		A8CFEB091409AA44005E896B /* pro_vay_101.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A8CFEB081409AA43005E896B /* pro_vay_101.jpg */; };
+		A8ECC72313FE187A00D9FEDF /* LocationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8ECC72113FE187A00D9FEDF /* LocationsViewController.m */; };
+		A8ECC72F13FE232600D9FEDF /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8ECC72E13FE232600D9FEDF /* MenuViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,24 +64,61 @@
 		9A024E2713C36F6B008BF716 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9A024E2913C36F6B008BF716 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		9A024E2B13C36F6B008BF716 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		9A024E2F13C36F6B008BF716 /* UndergroundMenu-Info.plist */ = {isa = PBXFileReference; path = "UndergroundMenu-Info.plist"; sourceTree = "<group>"; };
+		9A024E2F13C36F6B008BF716 /* UndergroundMenu-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UndergroundMenu-Info.plist"; sourceTree = "<group>"; };
 		9A024E3113C36F6B008BF716 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9A024E3313C36F6B008BF716 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9A024E3513C36F6B008BF716 /* UndergroundMenu-Prefix.pch */ = {isa = PBXFileReference; path = "UndergroundMenu-Prefix.pch"; sourceTree = "<group>"; };
-		9A024E3613C36F6B008BF716 /* UndergroundMenuAppDelegate.h */ = {isa = PBXFileReference; path = UndergroundMenuAppDelegate.h; sourceTree = "<group>"; };
+		9A024E3513C36F6B008BF716 /* UndergroundMenu-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UndergroundMenu-Prefix.pch"; sourceTree = "<group>"; };
+		9A024E3613C36F6B008BF716 /* UndergroundMenuAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UndergroundMenuAppDelegate.h; sourceTree = "<group>"; };
 		9A024E3713C36F6B008BF716 /* UndergroundMenuAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UndergroundMenuAppDelegate.m; sourceTree = "<group>"; };
 		9A024E3A13C36F6B008BF716 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		9A024E3D13C36F6B008BF716 /* UndergroundMenu.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UndergroundMenu.xcdatamodel; sourceTree = "<group>"; };
-		9A024E3F13C36F6B008BF716 /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		9A024E3F13C36F6B008BF716 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		9A024E4013C36F6B008BF716 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
-		9A024E4213C36F6B008BF716 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		9A024E4413C36F6B008BF716 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		9A024E4B13C36F6B008BF716 /* UndergroundMenuTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UndergroundMenuTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A024E4C13C36F6B008BF716 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		9A024E5613C36F6B008BF716 /* UndergroundMenuTests-Info.plist */ = {isa = PBXFileReference; path = "UndergroundMenuTests-Info.plist"; sourceTree = "<group>"; };
+		9A024E5613C36F6B008BF716 /* UndergroundMenuTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UndergroundMenuTests-Info.plist"; sourceTree = "<group>"; };
 		9A024E5813C36F6B008BF716 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9A024E5A13C36F6B008BF716 /* UndergroundMenuTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UndergroundMenuTests.h; sourceTree = "<group>"; };
 		9A024E5C13C36F6B008BF716 /* UndergroundMenuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UndergroundMenuTests.m; sourceTree = "<group>"; };
+		9A09676F1423005E006E5C18 /* pizzaparlor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pizzaparlor.jpg; sourceTree = "<group>"; };
+		9A09677214230219006E5C18 /* cake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cake.jpg; sourceTree = "<group>"; };
+		9A10985D14004AF900BD3C14 /* FoodTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodTableViewCell.h; sourceTree = "<group>"; };
+		9A10985E14004AF900BD3C14 /* FoodTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodTableViewCell.m; sourceTree = "<group>"; };
+		9A4178A81417D2060072260A /* LocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationManager.h; sourceTree = "<group>"; };
+		9A4178A91417D2060072260A /* LocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationManager.m; sourceTree = "<group>"; };
+		9A4CA3301406C430008A0E1A /* foodlogo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foodlogo.jpg; sourceTree = "<group>"; };
+		9A689A8A13FDABB30083EC1C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		9A6B385D1434EB3300A67A8E /* UndergroundMenu 6.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "UndergroundMenu 6.xcdatamodel"; sourceTree = "<group>"; };
+		9ABC54AC1427C94900BF8E04 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		9ABC54AF1427CCE100BF8E04 /* UndergroundMenu 4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "UndergroundMenu 4.xcdatamodel"; sourceTree = "<group>"; };
+		9ABC54B01428087300BF8E04 /* UndergroundMenu 5.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "UndergroundMenu 5.xcdatamodel"; sourceTree = "<group>"; };
+		9ABE5699140E8CFE00D06740 /* MenuItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuItem.xib; sourceTree = "<group>"; };
+		9AD8BB7E1401879E0089D0E1 /* LocationTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationTableViewCell.h; sourceTree = "<group>"; };
+		9AD8BB7F1401879E0089D0E1 /* LocationTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationTableViewCell.m; sourceTree = "<group>"; };
+		9ADC91661410025400C1913E /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		9ADC91671410025400C1913E /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		9ADE8C511407F39B00A8E612 /* UndergroundMenu 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "UndergroundMenu 2.xcdatamodel"; sourceTree = "<group>"; };
+		A8257C4B13FE2FC100909958 /* Restaurant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Restaurant.h; sourceTree = "<group>"; };
+		A8257C4C13FE2FC100909958 /* Restaurant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Restaurant.m; sourceTree = "<group>"; };
+		A8257C4E13FE2FC200909958 /* Food.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Food.h; sourceTree = "<group>"; };
+		A8257C4F13FE2FC200909958 /* Food.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Food.m; sourceTree = "<group>"; };
+		A8257C5113FE2FC200909958 /* Menu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Menu.h; sourceTree = "<group>"; };
+		A8257C5213FE2FC200909958 /* Menu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Menu.m; sourceTree = "<group>"; };
+		A83E3F2B140A002300AA81B9 /* MenuSelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuSelectViewController.h; sourceTree = "<group>"; };
+		A83E3F2C140A002300AA81B9 /* MenuSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuSelectViewController.m; sourceTree = "<group>"; };
+		A8423DC5140891C300CFC79F /* UndergroundMenu 3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "UndergroundMenu 3.xcdatamodel"; sourceTree = "<group>"; };
+		A8A708AC14021C7E004F42BF /* ResturantTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResturantTableViewCell.h; sourceTree = "<group>"; };
+		A8A708AD14021C7E004F42BF /* ResturantTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResturantTableViewCell.m; sourceTree = "<group>"; };
+		A8C91B9A1409B55100E34FA2 /* UIColorTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIColorTransformer.h; sourceTree = "<group>"; };
+		A8C91B9B1409B55100E34FA2 /* UIColorTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIColorTransformer.m; sourceTree = "<group>"; };
+		A8C91B9E1409D26A00E34FA2 /* testshop.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = testshop.jpg; path = ../testshop.jpg; sourceTree = "<group>"; };
+		A8CBF175144A1B86002C89BA /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
+		A8CBF176144A1B86002C89BA /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
+		A8CFEB081409AA43005E896B /* pro_vay_101.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pro_vay_101.jpg; sourceTree = "<group>"; };
+		A8ECC72013FE187A00D9FEDF /* LocationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationsViewController.h; sourceTree = "<group>"; };
+		A8ECC72113FE187A00D9FEDF /* LocationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationsViewController.m; sourceTree = "<group>"; };
+		A8ECC72D13FE232600D9FEDF /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		A8ECC72E13FE232600D9FEDF /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,8 +126,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9ABC54AD1427C94900BF8E04 /* AddressBookUI.framework in Frameworks */,
 				9A024E2613C36F6B008BF716 /* UIKit.framework in Frameworks */,
 				9A024E2813C36F6B008BF716 /* Foundation.framework in Frameworks */,
+				9A689A8B13FDABB40083EC1C /* CoreLocation.framework in Frameworks */,
 				9A024E2A13C36F6B008BF716 /* CoreGraphics.framework in Frameworks */,
 				9A024E2C13C36F6B008BF716 /* CoreData.framework in Frameworks */,
 			);
@@ -114,6 +172,8 @@
 		9A024E2413C36F6B008BF716 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9ABC54AC1427C94900BF8E04 /* AddressBookUI.framework */,
+				9A689A8A13FDABB30083EC1C /* CoreLocation.framework */,
 				9A024E2513C36F6B008BF716 /* UIKit.framework */,
 				9A024E2713C36F6B008BF716 /* Foundation.framework */,
 				9A024E2913C36F6B008BF716 /* CoreGraphics.framework */,
@@ -126,15 +186,35 @@
 		9A024E2D13C36F6B008BF716 /* UndergroundMenu */ = {
 			isa = PBXGroup;
 			children = (
+				9A09677214230219006E5C18 /* cake.jpg */,
+				9A09676F1423005E006E5C18 /* pizzaparlor.jpg */,
+				9ADC91661410025400C1913E /* DetailViewController.h */,
+				9ADC91671410025400C1913E /* DetailViewController.m */,
+				A8C91B9A1409B55100E34FA2 /* UIColorTransformer.h */,
+				A8C91B9B1409B55100E34FA2 /* UIColorTransformer.m */,
+				A8257C4713FE2F9200909958 /* Core Data Entities */,
 				9A024E3613C36F6B008BF716 /* UndergroundMenuAppDelegate.h */,
 				9A024E3713C36F6B008BF716 /* UndergroundMenuAppDelegate.m */,
 				9A024E3913C36F6B008BF716 /* MainStoryboard.storyboard */,
 				9A024E3F13C36F6B008BF716 /* RootViewController.h */,
 				9A024E4013C36F6B008BF716 /* RootViewController.m */,
-				9A024E4213C36F6B008BF716 /* DetailViewController.h */,
-				9A024E4413C36F6B008BF716 /* DetailViewController.m */,
 				9A024E3C13C36F6B008BF716 /* UndergroundMenu.xcdatamodeld */,
 				9A024E2E13C36F6B008BF716 /* Supporting Files */,
+				A8ECC72013FE187A00D9FEDF /* LocationsViewController.h */,
+				A8ECC72113FE187A00D9FEDF /* LocationsViewController.m */,
+				A8ECC72D13FE232600D9FEDF /* MenuViewController.h */,
+				A8ECC72E13FE232600D9FEDF /* MenuViewController.m */,
+				9A10985D14004AF900BD3C14 /* FoodTableViewCell.h */,
+				9A10985E14004AF900BD3C14 /* FoodTableViewCell.m */,
+				9AD8BB7E1401879E0089D0E1 /* LocationTableViewCell.h */,
+				9AD8BB7F1401879E0089D0E1 /* LocationTableViewCell.m */,
+				A8A708AC14021C7E004F42BF /* ResturantTableViewCell.h */,
+				A8A708AD14021C7E004F42BF /* ResturantTableViewCell.m */,
+				A83E3F2B140A002300AA81B9 /* MenuSelectViewController.h */,
+				A83E3F2C140A002300AA81B9 /* MenuSelectViewController.m */,
+				9ABE5699140E8CFE00D06740 /* MenuItem.xib */,
+				9A4178A81417D2060072260A /* LocationManager.h */,
+				9A4178A91417D2060072260A /* LocationManager.m */,
 			);
 			path = UndergroundMenu;
 			sourceTree = "<group>";
@@ -142,6 +222,9 @@
 		9A024E2E13C36F6B008BF716 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A8C91B9E1409D26A00E34FA2 /* testshop.jpg */,
+				A8CFEB081409AA43005E896B /* pro_vay_101.jpg */,
+				9A4CA3301406C430008A0E1A /* foodlogo.jpg */,
 				9A024E2F13C36F6B008BF716 /* UndergroundMenu-Info.plist */,
 				9A024E3013C36F6B008BF716 /* InfoPlist.strings */,
 				9A024E3313C36F6B008BF716 /* main.m */,
@@ -167,6 +250,21 @@
 				9A024E5713C36F6B008BF716 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A8257C4713FE2F9200909958 /* Core Data Entities */ = {
+			isa = PBXGroup;
+			children = (
+				A8CBF175144A1B86002C89BA /* Location.h */,
+				A8CBF176144A1B86002C89BA /* Location.m */,
+				A8257C5113FE2FC200909958 /* Menu.h */,
+				A8257C5213FE2FC200909958 /* Menu.m */,
+				A8257C4E13FE2FC200909958 /* Food.h */,
+				A8257C4F13FE2FC200909958 /* Food.m */,
+				A8257C4B13FE2FC100909958 /* Restaurant.h */,
+				A8257C4C13FE2FC100909958 /* Restaurant.m */,
+			);
+			name = "Core Data Entities";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,6 +311,9 @@
 /* Begin PBXProject section */
 		9A024E1813C36F6A008BF716 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
 			buildConfigurationList = 9A024E1B13C36F6A008BF716 /* Build configuration list for PBXProject "UndergroundMenu" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -238,7 +339,12 @@
 			files = (
 				9A024E3213C36F6B008BF716 /* InfoPlist.strings in Resources */,
 				9A024E3B13C36F6B008BF716 /* MainStoryboard.storyboard in Resources */,
-				9A024E4313C36F6B008BF716 /* DetailViewController.h in Resources */,
+				9A4CA3311406C430008A0E1A /* foodlogo.jpg in Resources */,
+				A8CFEB091409AA44005E896B /* pro_vay_101.jpg in Resources */,
+				A8C91B9F1409D26A00E34FA2 /* testshop.jpg in Resources */,
+				9ABE569A140E8CFE00D06740 /* MenuItem.xib in Resources */,
+				9A0967701423005E006E5C18 /* pizzaparlor.jpg in Resources */,
+				9A09677314230219006E5C18 /* cake.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,7 +384,19 @@
 				9A024E3813C36F6B008BF716 /* UndergroundMenuAppDelegate.m in Sources */,
 				9A024E3E13C36F6B008BF716 /* UndergroundMenu.xcdatamodeld in Sources */,
 				9A024E4113C36F6B008BF716 /* RootViewController.m in Sources */,
-				9A024E4513C36F6B008BF716 /* DetailViewController.m in Sources */,
+				A8ECC72313FE187A00D9FEDF /* LocationsViewController.m in Sources */,
+				A8ECC72F13FE232600D9FEDF /* MenuViewController.m in Sources */,
+				A8257C4D13FE2FC200909958 /* Restaurant.m in Sources */,
+				A8257C5013FE2FC200909958 /* Food.m in Sources */,
+				A8257C5313FE2FC200909958 /* Menu.m in Sources */,
+				9A10985F14004AF900BD3C14 /* FoodTableViewCell.m in Sources */,
+				9AD8BB801401879E0089D0E1 /* LocationTableViewCell.m in Sources */,
+				A8A708AE14021C7E004F42BF /* ResturantTableViewCell.m in Sources */,
+				A8C91B9C1409B55100E34FA2 /* UIColorTransformer.m in Sources */,
+				A83E3F2D140A002400AA81B9 /* MenuSelectViewController.m in Sources */,
+				9ADC91681410025400C1913E /* DetailViewController.m in Sources */,
+				9A4178AA1417D2060072260A /* LocationManager.m in Sources */,
+				A8CBF177144A1B86002C89BA /* Location.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,6 +566,7 @@
 				9A024E6213C36F6B008BF716 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9A024E6313C36F6B008BF716 /* Build configuration list for PBXNativeTarget "UndergroundMenuTests" */ = {
 			isa = XCConfigurationList;
@@ -456,6 +575,7 @@
 				9A024E6513C36F6B008BF716 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
@@ -463,9 +583,14 @@
 		9A024E3C13C36F6B008BF716 /* UndergroundMenu.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				9A6B385D1434EB3300A67A8E /* UndergroundMenu 6.xcdatamodel */,
+				9ABC54B01428087300BF8E04 /* UndergroundMenu 5.xcdatamodel */,
+				9ABC54AF1427CCE100BF8E04 /* UndergroundMenu 4.xcdatamodel */,
+				A8423DC5140891C300CFC79F /* UndergroundMenu 3.xcdatamodel */,
+				9ADE8C511407F39B00A8E612 /* UndergroundMenu 2.xcdatamodel */,
 				9A024E3D13C36F6B008BF716 /* UndergroundMenu.xcdatamodel */,
 			);
-			currentVersion = 9A024E3D13C36F6B008BF716 /* UndergroundMenu.xcdatamodel */;
+			currentVersion = 9A6B385D1434EB3300A67A8E /* UndergroundMenu 6.xcdatamodel */;
 			path = UndergroundMenu.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
