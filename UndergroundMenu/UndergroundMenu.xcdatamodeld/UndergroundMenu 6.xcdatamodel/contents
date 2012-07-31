@@ -1,41 +1,89 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="870" systemVersion="11B26" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1803" systemVersion="12A269" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
     <entity name="Food" representedClassName="Food">
-        <attribute name="calories" optional="YES" attributeType="Float" defaultValueString="0.0"/>
-        <attribute name="ingredients" optional="YES" attributeType="String"/>
-        <attribute name="name" optional="YES" attributeType="String"/>
-        <attribute name="picture" optional="YES" attributeType="Binary"/>
-        <attribute name="price" optional="YES" attributeType="Float" defaultValueString="0"/>
-        <relationship name="menu" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Menu" inverseName="items" inverseEntity="Menu"/>
+        <attribute name="calories" optional="YES" attributeType="Float" defaultValueString="0.0">
+            <userInfo/>
+        </attribute>
+        <attribute name="ingredients" optional="YES" attributeType="String">
+            <userInfo/>
+        </attribute>
+        <attribute name="name" optional="YES" attributeType="String">
+            <userInfo/>
+        </attribute>
+        <attribute name="picture" optional="YES" attributeType="Binary">
+            <userInfo/>
+        </attribute>
+        <attribute name="price" optional="YES" attributeType="Float" defaultValueString="0">
+            <userInfo/>
+        </attribute>
+        <relationship name="menu" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Menu" inverseName="items" inverseEntity="Menu">
+            <userInfo/>
+        </relationship>
+        <userInfo/>
     </entity>
     <entity name="Location" representedClassName="Location">
         <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="distance" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
-        <attribute name="latitude" optional="YES" attributeType="Float" defaultValueString="0.0"/>
-        <attribute name="longitude" optional="YES" attributeType="Float" defaultValueString="0.0"/>
-        <attribute name="name" optional="YES" attributeType="String"/>
-        <attribute name="picture" optional="YES" attributeType="Binary"/>
-        <relationship name="menus" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Menu" inverseName="location" inverseEntity="Menu"/>
-        <relationship name="restaurant" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Restaurant" inverseName="locations" inverseEntity="Restaurant"/>
+        <attribute name="latitude" optional="YES" attributeType="Float" defaultValueString="0.0">
+            <userInfo/>
+        </attribute>
+        <attribute name="longitude" optional="YES" attributeType="Float" defaultValueString="0.0">
+            <userInfo/>
+        </attribute>
+        <attribute name="name" optional="YES" attributeType="String">
+            <userInfo/>
+        </attribute>
+        <attribute name="picture" optional="YES" attributeType="Binary">
+            <userInfo/>
+        </attribute>
+        <relationship name="menus" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Menu" inverseName="location" inverseEntity="Menu">
+            <userInfo/>
+        </relationship>
+        <relationship name="restaurant" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Restaurant" inverseName="locations" inverseEntity="Restaurant">
+            <userInfo/>
+        </relationship>
+        <userInfo/>
     </entity>
     <entity name="Menu" representedClassName="Menu">
-        <attribute name="dateCreated" optional="YES" attributeType="Date"/>
-        <attribute name="name" optional="YES" attributeType="String"/>
-        <relationship name="items" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Food" inverseName="menu" inverseEntity="Food"/>
-        <relationship name="location" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Location" inverseName="menus" inverseEntity="Location"/>
+        <attribute name="dateCreated" optional="YES" attributeType="Date">
+            <userInfo/>
+        </attribute>
+        <attribute name="name" optional="YES" attributeType="String">
+            <userInfo/>
+        </attribute>
+        <relationship name="items" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Food" inverseName="menu" inverseEntity="Food">
+            <userInfo/>
+        </relationship>
+        <relationship name="location" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Location" inverseName="menus" inverseEntity="Location">
+            <userInfo/>
+        </relationship>
+        <userInfo/>
     </entity>
     <entity name="Restaurant" representedClassName="Restaurant">
-        <attribute name="about" optional="YES" attributeType="String"/>
-        <attribute name="bgcolor" optional="YES" attributeType="Transformable" valueTransformerName="UIColorTransformer"/>
-        <attribute name="logo" optional="YES" attributeType="Binary"/>
-        <attribute name="name" optional="YES" attributeType="String"/>
-        <attribute name="txtcolor" optional="YES" attributeType="Transformable" valueTransformerName="UIColorTransformer"/>
-        <relationship name="locations" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Location" inverseName="restaurant" inverseEntity="Location"/>
+        <attribute name="about" optional="YES" attributeType="String">
+            <userInfo/>
+        </attribute>
+        <attribute name="bgcolor" optional="YES" attributeType="Transformable" valueTransformerName="UIColorTransformer">
+            <userInfo/>
+        </attribute>
+        <attribute name="logo" optional="YES" attributeType="Binary">
+            <userInfo/>
+        </attribute>
+        <attribute name="name" optional="YES" attributeType="String">
+            <userInfo/>
+        </attribute>
+        <attribute name="txtcolor" optional="YES" attributeType="Transformable" valueTransformerName="UIColorTransformer">
+            <userInfo/>
+        </attribute>
+        <relationship name="locations" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Location" inverseName="restaurant" inverseEntity="Location">
+            <userInfo/>
+        </relationship>
+        <userInfo/>
     </entity>
     <elements>
-        <element name="Food" positionX="306" positionY="234" width="128" height="135"/>
-        <element name="Location" positionX="288" positionY="216" width="128" height="165"/>
-        <element name="Menu" positionX="270" positionY="207" width="128" height="105"/>
-        <element name="Restaurant" positionX="261" positionY="198" width="128" height="135"/>
+        <element name="Food" positionX="529" positionY="261" width="128" height="135"/>
+        <element name="Location" positionX="241" positionY="216" width="128" height="165"/>
+        <element name="Menu" positionX="477" positionY="75" width="128" height="105"/>
+        <element name="Restaurant" positionX="-2" positionY="189" width="128" height="135"/>
     </elements>
 </model>

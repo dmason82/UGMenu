@@ -3,8 +3,19 @@
 //  UndergroundMenu
 //
 //  Created by Doug Mason on 8/18/11.
-//  Copyright (c) 2011 __MyCompanyName__. All rights reserved.
+//  Copyright 2011 Doug Mason
 //
+//Licensed under the Apache License, Version 2.0 (the "License");
+//you may not use this file except in compliance with the License.
+//You may obtain a copy of the License at
+//
+//http://www.apache.org/licenses/LICENSE-2.0
+//
+//Unless required by applicable law or agreed to in writing, software
+//distributed under the License is distributed on an "AS IS" BASIS,
+//WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+//See the License for the specific language governing permissions and
+//limitations under the License.
 #import <CoreLocation/CoreLocation.h>
 #import <AddressBookUI/AddressBookUI.h>
 
@@ -104,8 +115,15 @@
         }
     }
     self.navigationItem.title = restaurant.name;
+
     [self.navigationController.navigationBar setTintColor:restaurant.bgcolor];
     [self.navigationController.navigationBar setTitleTextAttributes:[NSDictionary dictionaryWithObject:restaurant.txtcolor forKey:UITextAttributeTextColor]];
+    UIColor* backColor = [UIColor blueColor];
+    [[[self navigationItem] backBarButtonItem] setTintColor:backColor];
+    UIBarButtonItem *back = [[UIBarButtonItem alloc] init ];
+    back.title = restaurant.name;
+    [back setTintColor:[UIColor redColor]];
+    [[self navigationItem] setBackBarButtonItem:back];
 
 }
 
